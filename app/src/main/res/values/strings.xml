@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">TestVolpisKotlin</string>
+    <string name="title_activity_main">Volpis</string>
+    <string name="title_fragment_objects">Об"єкти</string>
+    <string name="title_fragment_map">Карта</string>
+
+    <string name="text_msg_loading">loading</string>
+    <string name="msg_update_data_from_serv">Data was successfully updated</string>
+
+
+</resources>

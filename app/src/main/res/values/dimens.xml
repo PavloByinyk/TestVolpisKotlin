@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="views_small_padding">8dp</dimen>
+    <dimen name="views_medium_padding">16dp</dimen>
+    <dimen name="views_large_padding">32dp</dimen>
+
+    <dimen name="text_size_big">16sp</dimen>
+    <dimen name="text_size_medium">12sp</dimen>
+
+
+</resources>

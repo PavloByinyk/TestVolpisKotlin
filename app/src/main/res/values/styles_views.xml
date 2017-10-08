@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- ******************** Labels  ******************** -->
+    <style name="Label">
+        <item name="android:fontFamily">sans-serif-light</item>
+        <item name="android:alpha">.86</item>
+        <item name="android:textColor">@android:color/black</item>
+        <item name="android:ellipsize">end</item>
+    </style>
+
+    <style name="Label.Title">
+        <item name="android:textSize">@dimen/text_size_big</item>
+        <item name="android:fontFamily">sans-serif-medium</item>
+        <item name="android:gravity">left</item>
+        <item name="android:padding">@dimen/views_small_padding</item>
+        <item name="android:singleLine">true</item>
+    </style>
+
+    <style name="Label.Description">
+        <item name="android:textSize">@dimen/text_size_medium</item>
+        <item name="android:paddingRight">@dimen/views_small_padding</item>
+        <item name="android:paddingLeft">@dimen/views_small_padding</item>
+        <item name="android:maxLines">4</item>
+    </style>
+
+    <style name="Label.Distance">
+        <item name="android:fontFamily">sans-serif-medium</item>
+        <item name="android:textSize">@dimen/text_size_medium</item>
+        <item name="android:singleLine">true</item>
+        <item name="android:textColor">@color/colorAccent</item>
+        <item name="android:paddingLeft">@dimen/views_small_padding</item>
+    </style>
+
+
+    <!-- *********************** Buttons  *********************** -->
+    <style name="Button.Flat" parent="Widget.AppCompat.Button.Borderless" >
+        <item name="android:textSize">@dimen/text_size_big</item>
+    </style>
+
+    <style name="Button.Flat.Green">
+        <item name="android:background">@color/colorAccent</item>
+        <item name="android:textColor">@color/colorWhite</item>
+        <item name="android:layout_marginTop">@dimen/views_large_padding</item>
+        <item name="android:minWidth">88dp</item>
+        <item name="android:paddingLeft">@dimen/views_medium_padding</item>
+        <item name="android:paddingRight">@dimen/views_medium_padding</item>
+    </style>
+
+    <style name="Button.Flat.Transparent">
+        <item name="android:background">@color/colorGreenTransparent</item>
+        <item name="android:textColor">@color/colorBlack</item>
+
+    </style>
+
+
+</resources>
